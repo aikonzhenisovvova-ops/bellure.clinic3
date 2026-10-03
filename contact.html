@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Request a demo consultation at Bellure Clinic, find our address and opening hours, and read frequently asked questions.">
+  <title>Contact & Booking — Bellure Clinic</title>
+  <link rel="icon" href="images/logo-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container bar">
+      <a class="logo" href="index.html"><img src="images/logo-mark.svg" alt="" width="64" height="56">Bellure Clinic</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+          <li class="nav-cta"><a href="contact.html#booking">Book a visit</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <span class="eyebrow">Contact</span>
+        <h1 id="contact-title">Let&rsquo;s plan your first visit</h1>
+        <p class="lead">Fill in the form to preview how a consultation request works, or call us on the number beside it. Common questions are answered <a href="#faq">further down this page</a>.</p>
+      </div>
+    </section>
+
+    <section class="section alt" id="booking" aria-labelledby="booking-title">
+      <div class="container grid grid-form">
+        <div>
+          <h2 id="booking-title">Request a consultation</h2>
+          <p class="demo-note" id="demo-note"><strong>Demo only.</strong> Your information is not sent or stored. Use sample details.</p>
+          <form action="demo-result.html" method="get" aria-describedby="demo-note">
+            <div class="field">
+              <label for="full-name">Full name</label>
+              <input id="full-name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="phone">Phone <span class="hint">(optional)</span></label>
+              <input id="phone" type="tel" autocomplete="tel" placeholder="+7 (700) 000-00-00">
+            </div>
+            <div class="field">
+              <label for="service">Treatment you are interested in</label>
+              <select id="service">
+                <option value="">No preference &mdash; let the doctor decide</option>
+                <option>Cleansing &amp; peels</option>
+                <option>Injectables</option>
+                <option>Laser &amp; device treatments</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Anything the doctor should know?</label>
+              <textarea id="message" rows="5" required></textarea>
+            </div>
+            <div class="field field-check">
+              <input id="demo-ok" type="checkbox" required>
+              <label for="demo-ok">I understand this is a demonstration and nothing will be sent.</label>
+            </div>
+            <div class="form-actions">
+              <button class="btn" type="submit">Check demo form</button>
+              <p>Opens a demonstration page.</p>
+            </div>
+          </form>
+        </div>
+
+        <aside class="card" aria-labelledby="visit-us-title">
+          <h2 id="visit-us-title" class="card-title">Visit us</h2>
+          <address>10 Kabanbay Batyr Ave, Astana<br><a href="tel:+77172000000">+7 (7172) 00-00-00</a><br><a href="mailto:hello@bellureclinic.kz">hello@bellureclinic.kz</a></address>
+          <h3 class="mt-md">Hours</h3>
+          <p>Mon&ndash;Sat: 09:00&ndash;20:00<br>Sunday: closed</p>
+          <figure class="map-frame">
+            <img src="images/map.svg" alt="Simplified illustrated map with a rose pin marking the clinic near Kabanbay Batyr Avenue" width="400" height="260">
+            <figcaption>Illustrative map, not to scale.</figcaption>
+          </figure>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-head"><h2 id="gallery-title">Treatment gallery</h2><p>Illustrations of the four most requested treatments. Real case details are shared only at a consultation.</p></div>
+        <div class="grid grid-4">
+          <figure class="gallery-item">
+            <img src="images/gallery-1.svg" alt="Abstract illustration: a textured half beside a smooth half, representing cleansing" width="300" height="220">
+            <figcaption>Facial cleansing course</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gallery-2.svg" alt="Abstract illustration of three blue droplets of different sizes" width="300" height="220">
+            <figcaption>Biorevitalization</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gallery-3.svg" alt="Abstract illustration of parallel rose lines passing a glowing circle" width="300" height="220">
+            <figcaption>Laser hair removal</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gallery-4.svg" alt="Abstract illustration of concentric blue rings spreading from a rose centre" width="300" height="220">
+            <figcaption>RF skin tightening</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-head"><h2 id="faq-title">Frequently asked questions</h2></div>
+        <div class="faq">
+          <details>
+            <summary>Do I need a consultation before booking a treatment?</summary>
+            <p>Yes &mdash; every first visit starts with a doctor&rsquo;s examination, even for simple treatments like cleansing.</p>
+          </details>
+          <details>
+            <summary>How do I know which treatment is right for me?</summary>
+            <p>The doctor recommends a plan after examining your skin. You are never asked to decide from a menu alone.</p>
+          </details>
+          <details>
+            <summary>Can I cancel or reschedule?</summary>
+            <p>Yes, free of charge up to 24 hours before your appointment.</p>
+          </details>
+          <details>
+            <summary>Does the form on this page book a real appointment?</summary>
+            <p>No. This website is a static demonstration, so the form only checks your entries in the browser. To arrange a real visit, use the phone number or email address on this page.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-cols">
+        <section>
+          <h2>Bellure Clinic</h2>
+          <p>A medical cosmetology clinic in Astana. Licensed practice, visits by appointment only.</p>
+        </section>
+        <section>
+          <h2>Contact</h2>
+          <address>10 Kabanbay Batyr Ave, Astana<br><a href="tel:+77172000000">+7 (7172) 00-00-00</a><br><a href="mailto:hello@bellureclinic.kz">hello@bellureclinic.kz</a></address>
+        </section>
+        <section>
+          <h2>Opening hours</h2>
+          <p>Mon&ndash;Sat: 09:00&ndash;20:00<br>Sunday: closed</p>
+        </section>
+        <section>
+          <h2>Pages</h2>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </section>
+      </div>
+      <p class="copy"><small>&copy; 2026 Bellure Clinic. Student website project &mdash; the clinic is fictional.</small></p>
+    </div>
+  </footer>
+</body>
+</html>
